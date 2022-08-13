@@ -1,0 +1,79 @@
+body{
+    background-image: url(assets/web.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.box{
+    width: 600px;
+    height: 600px;
+    border: 5px solid;
+    background-color: rgba(0, 0, 0, 0.856);
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+}
+div.box  p.text{
+    position: relative;
+    left: 80px;
+    color:  white;
+    font-size: 30px;
+    font-family: cursive;
+    top: 10px;
+}
+div.box  p.num{
+    position: relative;
+    left: 170px;
+    color:  white;
+    font-size: 30px;
+    font-family: cursive;
+    bottom: 10px;
+}
+div.box  p.text2{
+    position: relative;
+    left: 190px;
+    color:  white;
+    font-size: 30px;
+    font-family: cursive;
+    bottom: 10px;
+}
+div.box  p.email{
+    position: relative;
+    left: 140px;
+    color:  white;
+    font-size: 30px;
+    font-family: cursive;
+    bottom: 80px;
+}
+div.box  p.text3{
+    position: relative;
+    left: 30px;
+    color:  white;
+    font-size: 30px;
+    font-family: cursive;
+    top: 10px;
+}
+
+div.box p.acc a{
+    position: absolute;
+    right: 20px;
+    color:  white;
+    font-size: 30px;
+    font-family: cursive;
+    bottom: 90px;
+    text-decoration: underline;
+    transition: 0.5s;
+}   
+
+
+
+
+
+div.box p.acc:hover a{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

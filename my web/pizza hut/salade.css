@@ -1,0 +1,313 @@
+body{
+    background-image: url(salade.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.logo{
+    position: absolute;
+    left: 20px;
+}
+
+section.allboxes{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    right: 40px;
+    top: 170px;
+}
+
+section.flex-box{
+    border: 5px ;
+    position: absolute;
+    display: inline-flex;
+    height: 80px;
+    top: 0%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.575);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div.text p.pizza a{
+    text-decoration: none;
+    color: white;
+    background: rgba(255, 0, 0, 0.726);
+    font-size: 30px;
+    font-family:cursive;
+    transition: 0.5s;
+    position: absolute;
+    right: 600px;
+    top: 35px;
+    margin: 0;
+    padding: 0px;
+}
+
+div.text p.burger a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    background: rgba(255, 0, 0, 0.726);
+    font-family:cursive;
+    transition: 0.5s;
+    position: absolute;
+    right: 420px;
+    top: 35px;
+    margin: 0;
+    padding: 0px;
+}
+
+div.text p.tacos a{
+    text-decoration: none;
+    color: white;
+    background: rgba(255, 0, 0, 0.726);
+    font-size:30px;
+    font-family:cursive;
+    transition: 0.5s;
+    position: absolute;
+    right: 255px;
+    top: 35px;
+    margin: 0;
+    padding: 0px;
+}
+div.text p.salade a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family:cursive;
+    transition: 0.5s;
+    position: absolute;
+    right: 75px;
+    top: 25px;
+    margin: 0;
+    padding: 0px;
+}
+
+
+
+div.text p:hover a{
+    background: none;
+    top: 25px;
+}
+
+div.logotext a {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.726);
+    font-size: 40px;
+    font-family:cursive;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 125px;
+    transition: 0.5s;
+    bottom: 574px;
+}
+
+section.flex-box div.logotext:hover a{
+    color: white;
+    bottom: 585px;
+}
+
+
+div.instagram a i.fa-brands{
+    font-size: 25px;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+div.instagram:hover a i.fa-brands{
+    top: 42px;
+}
+
+div.numero i.fa-solid{
+    font-size: 25px;
+    position: absolute;
+    top: 50px;
+    left: 390px;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+div.numero p.num{
+    font-size: 20px;
+    position: absolute;
+    top: 27px;
+    left: 425px;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+    font-family: cursive;
+}
+
+
+
+div.box1{
+    border: 5px ;
+    position: absolute;
+    display: inline-flex;
+    height: 200px;
+    top: 100px;
+    left: 200px;
+    background: rgba(0, 0, 0, 0.76);
+    width: 250px;
+    margin: 0;
+    justify-content: center;
+    padding: 0;
+}
+div.box1 p.cheese{
+    text-decoration: underline;
+    color: white;
+    font-size: 25px;
+    font-family:cursive;
+    position: absolute;
+    margin: 0;
+    padding: 0px;
+}
+div.box1 p.ing{
+    color: white;
+    font-size: 15px;
+    font-family:cursive;
+    position: absolute;
+    top: 40px;
+    margin: 0;
+    padding: 0px;
+}
+div.box1 p.prix{
+    color: white;
+    font-size: 30px;
+    font-family:cursive;
+    position: absolute;
+    top: 80px;
+    margin: 0;
+    padding: 0px;
+}
+div.box1 p.prx{
+    color: white;
+    font-size: 20px;
+    font-family:cursive;
+    position: absolute;
+    top: 120px;
+    margin: 0;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+div.box2{
+    border: 5px ;
+    position: absolute;
+    display: inline-flex;
+    height: 200px;
+    top: 100px;
+    left: 600px;
+    background: rgba(0, 0, 0, 0.76);
+    width: 250px;
+    margin: 0;
+    justify-content: center;
+    padding: 0;
+}
+div.box2 p.dcheese{
+    text-decoration: underline;
+    color: white;
+    font-size: 25px;
+    font-family:cursive;
+    position: absolute;
+    margin: 0;
+    padding: 0px;
+}
+div.box2 p.ing2{
+    color: white;
+    font-size: 15px;
+    font-family:cursive;
+    position: absolute;
+    top: 40px;
+    margin: 0;
+    padding: 0px;
+}
+
+div.box2 p.prix2{
+    color: white;
+    font-size: 30px;
+    font-family:cursive;
+    position: absolute;
+    top: 80px;
+    margin: 0;
+    padding: 0px;
+}
+
+div.box2 p.prx2{
+    color: white;
+    font-size: 20px;
+    font-family:cursive;
+    position: absolute;
+    top: 120px;
+    margin: 0;
+    padding: 0px;
+}
+
+
+
+
+div.box3{
+    border: 5px ;
+    position: absolute;
+    display: inline-flex;
+    height: 200px;
+    top: 100px;
+    left: 1000px;
+    background: rgba(0, 0, 0, 0.76);
+    width: 250px;
+    margin: 0;
+    justify-content: center;
+    padding: 0;
+}
+div.box3 p.tcheese{
+    text-decoration: underline;
+    color: white;
+    font-size: 25px;
+    font-family:cursive;
+    position: absolute;
+    margin: 0;
+    padding: 0px;
+}
+div.box3 p.ing3{
+    color: white;
+    font-size: 15px;
+    font-family:cursive;
+    position: absolute;
+    top: 40px;
+    margin: 0;
+    padding: 0px;
+}
+
+div.box3 p.prix3{
+    color: white;
+    font-size: 30px;
+    font-family:cursive;
+    position: absolute;
+    top: 80px;
+    margin: 0;
+    padding: 0px;
+}
+
+div.box3 p.prx3{
+    color: white;
+    font-size: 20px;
+    font-family:cursive;
+    position: absolute;
+    top: 120px;
+    margin: 0;
+    padding: 0px;
+}
+

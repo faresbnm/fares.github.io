@@ -1,0 +1,51 @@
+body{
+    background-image: url(assets/web.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+
+
+body div.input-position input.inputs{
+    font-size: 40px;
+    
+}
+
+body div.input-position p.searches{
+    font-size: 40px;
+    position: absolute;
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    left: 505px;
+    top: 210px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+body div.validation p.btn a{
+    font-size: 40px;
+    position: absolute;
+    bottom: 250px;
+    left: 620px;
+    color: white;
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    transition: 0.5s;
+    background: rgb(101, 42, 238);
+}
+
+
+body div.validation p.btn:hover a{
+    background: white;
+    color: black;
+}
+
+

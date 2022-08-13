@@ -1,0 +1,189 @@
+body{
+    background-image: url(pizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div.logo{
+    position: absolute;
+    left: 20px;
+}
+
+section.flex-box{
+    border: 5px ;
+    position: absolute;
+    display: inline-flex;
+    height: 80px;
+    top: 0%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.575);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+div.text p.pizza a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    background: rgba(255, 0, 0, 0.726);
+    font-family:cursive;
+    transition: 0.5s;
+    position: absolute;
+    right: 600px;
+    top: 35px;
+
+}
+
+div.text p.burger a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    background: rgba(255, 0, 0, 0.726);
+    font-family:cursive;
+    transition: 0.5s;
+    position: absolute;
+    right: 420px;
+    top: 35px;
+    margin: 0;
+    padding: 0px;
+}
+
+div.text p.tacos a{
+    text-decoration: none;
+    color: white;
+    font-size:30px;
+    background: rgba(255, 0, 0, 0.726);
+    font-family:cursive;
+    transition: 0.5s;
+    position: absolute;
+    right: 255px;
+    top: 35px;
+    margin: 0;
+    padding: 0px;
+}
+div.text p.salade a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    background: rgba(255, 0, 0, 0.726);
+    font-family:cursive;
+    transition: 0.5s;
+    position: absolute;
+    right: 75px;
+    top: 35px;
+    margin: 0;
+    padding: 0px;
+}
+
+
+
+div.text p:hover a{
+    background: none;
+    top: 25px;
+}
+
+section.flex-box div.logotext p{
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.726);
+    font-size: 40px;
+    font-family:cursive;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 125px;
+    top: 20px;
+}
+
+
+div.instagram a i.fa-brands{
+    font-size: 25px;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+div.instagram:hover a i.fa-brands{
+    top: 42px;
+}
+
+div.numero i.fa-solid{
+    font-size: 25px;
+    position: absolute;
+    top: 50px;
+    left: 390px;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+div.numero p.num{
+    font-size: 20px;
+    position: absolute;
+    top: 27px;
+    left: 425px;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+    font-family: cursive;
+}
+
+section.bodyText div.welcome p{
+    position: absolute;
+    font-size: 80px;
+    top: 20px;
+    right: 100px;
+    text-decoration: none;
+    color:  white;
+    transition: 0.2s;
+    font-family: cursive;
+}
+
+section.bodyText div.welcome p.chez{
+    position: absolute;
+    font-size: 60px;
+    top: 140px;
+    right: 70px;
+    text-decoration: none;
+    color:  white;
+    transition: 0.2s;
+    font-family: cursive;
+}
+section.bodyText div.welcome p.cmnd{
+    position: absolute;
+    font-size: 60px;
+    top: 280px;
+    right: 130px;
+    text-decoration: none;
+    color:  white;
+    transition: 0.2s;
+    font-family: cursive;
+}
+
+
+div.back p.backbtn a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.781);
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 35px;
+    position: absolute;
+    top: 120px;
+    transition: 0.5s;
+}
+div.back p.backbtn:hover a{
+    background-color: rgba(255, 255, 255, 0.842);
+    color: black;
+}
+div.back p.backbtn i.fa-arrow-left-long{
+    padding-right: 15px;
+    position: relative;
+    top: 2px;
+    bottom: 2px;
+}
